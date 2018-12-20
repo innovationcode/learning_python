@@ -17,9 +17,10 @@
 
 *   Python Identifiers --->
 	Here are following identifier naming convention for Python: 
-		–Class names start with an uppercase letter and all other identifiers with a lowercase letter. 
-		–Starting an identifier with a single leading underscore indicates by convention that the identifier is meant to be private. –Starting an identifier with two leading underscores indicates a strongly private identifier. 
-		–If the identifier also ends with two trailing underscores, the identifier is a language-defined special name. 
+		`–Class names start with an uppercase letter and all other identifiers with a lowercase letter. `
+		`–Starting an identifier with a single leading underscore indicates by convention that the identifier is meant to be private.`
+		`–Starting an identifier with two leading underscores indicates a strongly private identifier. `
+		`–If the identifier also ends with two trailing underscores, the identifier is a language-defined special name. `
 
 *	Reserved Words --->
 	Keywords contain lowercase letters only. 
@@ -27,8 +28,8 @@
 		`and			exec 				not 				assert 		finally`		
 		`or 			break 				for 				pass  		class`
 		`from 			print 				continue 			global 		raise` 
-		`def  			if 					return 				del 		import` 
-		`try 			elif 				in 					while 	 	else` 	
+		`def  			if 				return 				del 		import` 
+		`try 			elif 				in 				while 	 	else` 	
 		`is 			with 				except 				lambda 		yield` 
 
 *	Indentation  --->
@@ -49,9 +50,9 @@
 	Statements in Python typically end with a new line. Python does, however, allow the use of the line continuation character ('\') to denote that the line should continue. 
 
 	For e.g. 
-	 	`total = item_one + \ 
-	    	    item_two + \ 
-	         	item_three `
+	 	`total = item_one + \` 
+	    	     `item_two + \` 
+	         	 `item_three `
 
 	Statements contained within the [], {}, or () brackets do not need to use the line continuation character. 
 
