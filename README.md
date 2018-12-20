@@ -6,6 +6,7 @@
 	For e.g.--
 
 	`Java source code  ----->  compile     ----------->  execute`
+	
 	   `Hello.java   ------->  byte code (.class) ---->  output`
 
 	Python is instead directly interpreted into machine instructions.
@@ -40,4 +41,22 @@
 		return a + b;									return a+b
 	}
 
-*	
+*	Multi-Line Statements --->
+	Statements in Python typically end with a new line. Python does, however, allow the use of the line continuation character ('\') to denote that the line should continue. 
+
+	For e.g. 
+	 total = item_one + \ 
+	         item_two + \ 
+	         item_three 
+
+	Statements contained within the [], {}, or () brackets do not need to use the line continuation character. 
+
+	For e.g.
+	days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'] 
+
+*	With single ('), double (") quotes, in python triple quotes can be used to span the string across multiple lines. 
+	
+	For e.g., 
+		word = 'word' 
+		sentence = "This is a sentence." 
+		paragraph = """This is a paragraph. It is made up of multiple lines and sentences."""
