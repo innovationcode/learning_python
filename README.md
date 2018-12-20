@@ -10,8 +10,8 @@
 
 	Python is instead directly interpreted into machine instructions.
 
-			`Python source code  ----->  interpret  ------> putput`                                                                           
-	        `Hello.py         ------->  output`
+			`Python source code  ----->  interpret  ------> putput` 
+	          `Hello.py         ------->  output`
 
 *   Python is case-sensitive.
 
@@ -24,12 +24,12 @@
 *	Reserved Words --->
 	Keywords contain lowercase letters only. 
 
-		`and				exec 				not 				assert 		finally`		
-		`or 				break 				for 				pass  		class`
+		`and			exec 				not 				assert 		finally`		
+		`or 			break 				for 				pass  		class`
 		`from 			print 				continue 			global 		raise` 
 		`def  			if 					return 				del 		import` 
 		`try 			elif 				in 					while 	 	else` 	
-		`is 				with 				except 				lambda 		yield` 
+		`is 			with 				except 				lambda 		yield` 
 
 *	Indentation  --->
 	In Python there are no braces to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.
@@ -61,8 +61,7 @@
 *	With single ('), double (") quotes, in python triple quotes can be used to span the string across multiple lines. 
 	
 	For e.g., 
-		word = 'word'
-
-		sentence = "This is a sentence." 
 		
-		paragraph = """This is a paragraph. It is made up of multiple lines and sentences."""
+		`word = 'word'
+		 sentence = "This is a sentence." 
+		 paragraph = """This is a paragraph. It is made up of multiple lines and sentences."""`
